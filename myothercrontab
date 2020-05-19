@@ -1,5 +1,0 @@
-* * * * * echo hello again
-
-# Interact with another container
-#* * * * * ping apache
-#* * * * * curl apache/generate_reports.php
