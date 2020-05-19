@@ -5,8 +5,7 @@ Includes curl for requests to other containers.
 # Usage
 
 ```
-docker build tkav/crontab --build-arg CRONTAB=crontab
-docker run -d tkav/crontab
+docker run -e CRONTAB=crontab tkav/crontab
 ```
 
 ```CRONTAB``` should point to your Crontab file
