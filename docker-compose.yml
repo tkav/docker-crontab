@@ -4,5 +4,5 @@ services:
     build:
       context: .
       args:
-        CRONTAB: 'myothercrontab'
+        CRONTAB: 'mycrontab'
     container_name: cron

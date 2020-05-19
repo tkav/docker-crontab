@@ -1,5 +1,5 @@
 FROM yauritux/busybox-curl
-ARG CRONTAB
+ARG CRONTAB=crontab
 
 RUN mkdir -p /var/spool/cron/crontabs
 
