@@ -2,6 +2,11 @@
 Minimal docker image for crontab.
 Includes curl for requests to other containers.
 
+*WARNING:* Usage instructions below not working. Please pull the git repo and build using
+```
+docker build . -t tkav/crontab --build-arg CRONTAB=crontab
+```
+
 # Usage
 
 ```
