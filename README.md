@@ -21,21 +21,3 @@ Create a crontab file
 #* * * * * ping apache
 #* * * * * curl apache/generate_reports.php
 ```
-
-# docker-compose example
-
-```
-version: "3.7"
-services:
-  cron:
-    image: tkav/crontab
-    container_name: crontab
-      args:
-        CRONTAB: 'mycrontab'
-```
-
-# Check Logs
-
-```
-docker logs -f crontab
-```
